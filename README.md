@@ -33,3 +33,8 @@ Basic building blocks in JavaScript that hold simple values like text, numbers, 
 # non-primitive data types:
 
 A single type called Object that holds complex data, like collections or functions.
+
+
+# difference between Slice and Substring
+
+Slice is a part of a string, Substring is a part of a string. but they are not the same. slice supports negative indexing. Substring does not support negative indexing. and it turn negative indexing 0 to -1.

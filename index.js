@@ -22,3 +22,10 @@ var c = true;
 
 // non-primitive data types
 //A single type called Object that holds complex data, like collections or functions.
+
+
+const greet = "Hello World";
+
+const phoneCall = greet.substring(0, 5);
+
+console.log(phoneCall);
