@@ -26,6 +26,8 @@ var c = true;
 
 const greet = "Hello World";
 
-const phoneCall = greet.substring(0, 5);
+const phoneCall = greet.substring(5, 0);
+const phoneCall2 = greet.slice(5, 0);
 
-console.log(phoneCall);
+console.log("PhoneCall -> ", phoneCall);
+console.log("PhoneCall2 -> ", phoneCall2);
